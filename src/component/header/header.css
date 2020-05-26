@@ -1,0 +1,61 @@
+#header {
+    transition: all ease .2s;
+}
+
+.navbar-container {
+    padding-right: 0;
+}
+
+.navbar-logo {
+    width: 180px;
+}
+
+.button-container {
+    padding: 0px 10px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-button-label {
+    text-transform: uppercase;
+}
+
+.home-button-label {
+    color: #ffc107
+}
+
+.rocket-icon {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.subscribe-button-label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-icon {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 24px;
+}
+
+.button-border {
+    border: #ffc107 1px solid;
+}
+
+.tilted-button {
+    transform: skew(15deg);
+}
+
+.nav-button-right {
+    margin-right: -10px;
+    background-color: #ffc107;
+}
+
+.parallelogram {
+    transform: skewX(-15deg);
+    border-radius: 6px;
+}
