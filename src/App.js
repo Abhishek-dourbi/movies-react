@@ -3,7 +3,7 @@ import Dashboard from "./screens/dashboard/dashboard";
 
 function App() {
   return (
-    <div style={{height: '1000px', backgroundColor: '#000'}}>
+    <div style={{backgroundColor: '#000', color: '#fff'}}>
       <Dashboard />
     </div>
   );
