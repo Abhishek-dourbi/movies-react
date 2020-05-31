@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
+import  signIn from '../Sign-in/signIn';
 import './header.css';
+
 
 class Header extends Component {
     listenScrollEvent = e => {
@@ -48,7 +50,7 @@ class Header extends Component {
                                 </button>
                             </li>
                             <li className="nav-item button-container parallelogram button-border nav-button-right">
-                                <button className="nav-link nav-button tilted-button" href="#" tabIndex="-1">
+                                <button className="nav-link nav-button tilted-button" href="/signIn" tabIndex="-1">
                                     <span className="nav-button-label">Sign in | Register</span>
                                 </button>
                             </li>
