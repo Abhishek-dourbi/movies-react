@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ReactPlayer from 'react-player';
 import './player.css';
-import video from '../../videos/test.mp4';
 
 class Player extends Component {
     constructor(props) {
@@ -83,7 +82,7 @@ class Player extends Component {
                     <ReactPlayer
                         ref={(r) => (this.player = r)}
                         className='react-player'
-                        url={video}
+                        url={'https://pro365staging.nyc3.cdn.digitaloceanspaces.com/13bd210c-7288-4824-8c89-4e2f508d8cc8.mp4'}
                         playing={playing}
                         controls={true}
                         light={thumbnail}
