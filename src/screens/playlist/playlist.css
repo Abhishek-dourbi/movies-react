@@ -1,6 +1,7 @@
 .playlist-container {
     display: flex;
-    flex: 1
+    flex: 1;
+    padding-top: 7rem;
 }
 
 .player-container {

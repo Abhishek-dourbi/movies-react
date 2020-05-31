@@ -1,16 +1,16 @@
 .player-wrapper {
     position: relative;
-    padding-top: 56.25%
+    padding-top: 56.25%;
+}
+
+video:focus {
+    outline: none;
 }
 
 .react-player {
     position: absolute;
     top: 0;
     left: 0
-}
-
-.react-player:focus {
-    outline: transparent;
 }
 
 .react-player__play-icon {
@@ -20,10 +20,6 @@
 .react-player__preview {
     pointer-events: none;
     opacity: 0.5;
-}
-
-.react-player__preview:focus {
-    outline: transparent;
 }
 
 .play-pause-button-container {
@@ -85,4 +81,36 @@
 
 .views-label {
     margin-left: 1rem;
+}
+
+.seek {
+    color: red;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #ffc107;
+    height: 0.1rem
+}
+
+.seek:focus{
+    outline: none;
+}
+
+.title-intro {
+    color: white;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tags {
+    padding: 0.5rem 1rem;
+    background-color: #242424;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    border-color: #ffc107;
+    font-weight: 400;
 }
