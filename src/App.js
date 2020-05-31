@@ -1,9 +1,10 @@
 import React from 'react';
 import Dashboard from "./screens/dashboard/dashboard";
+import './App.css';
 
 function App() {
   return (
-    <div style={{height: '1000px', backgroundColor: '#000'}}>
+    <div>
       <Dashboard />
     </div>
   );

@@ -16,7 +16,7 @@ class Header extends Component {
 
     render() {
         return (
-            <nav id="header" className="navbar fixed-top navbar-expand-lg navbar-light navbar-container">
+            <nav id="header" className="navbar navbar-expand-lg navbar-light navbar-container">
                 <a className="navbar-brand" href="#">
                     <img className="navbar-logo" src="https://ullu.app/assets/img/ullu-text.png" />
                 </a>
