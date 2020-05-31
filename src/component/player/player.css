@@ -1,0 +1,116 @@
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+video:focus {
+    outline: none;
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.react-player__play-icon {
+    display: none;
+}
+
+.react-player__preview {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.play-pause-button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.player-button {
+    font-size: 3rem;
+    color: #ffc107;
+}
+
+.backward-button-container {
+    position: absolute;
+    top: 50%;
+    left: 35%
+}
+
+.forward-button-container {
+    position: absolute;
+    top: 50%;
+    left: 64%;
+}
+
+.rating-overlay-container {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    flex-direction: row;
+    display: flex;
+}
+
+.rating-label {
+    border: #ffc107 solid 1px;
+    padding: 0.5rem 1rem;
+    color: #ffc107;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.rating {
+    padding: 0.5rem 1rem;
+    color: #000;
+    border-radius: 1rem;
+    background-color: #ffc107;
+}
+
+.views-container {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.views {
+    color: #ffc107;
+    font-size: 2rem;
+}
+
+.views-label {
+    margin-left: 1rem;
+}
+
+.seek {
+    color: red;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #ffc107;
+    height: 0.1rem
+}
+
+.seek:focus{
+    outline: none;
+}
+
+.title-intro {
+    color: white;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.tags {
+    padding: 0.5rem 1rem;
+    background-color: #242424;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    border-color: #ffc107;
+    font-weight: 400;
+}

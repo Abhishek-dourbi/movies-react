@@ -1,0 +1,17 @@
+.playlist-container {
+    display: flex;
+    flex: 1;
+    padding-top: 7rem;
+}
+
+.player-container {
+    flex: 5;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.playlist-card-container {
+    flex: 2;
+    flex-direction: column;
+}

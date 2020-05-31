@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import  signIn from '../Sign-in/signIn';
 import './header.css';
+import {Link} from "react-router-dom";
+import RoutesEnum from "../../routes/routesEnum";
 
 
 class Header extends Component {
@@ -19,9 +21,9 @@ class Header extends Component {
     render() {
         return (
             <nav id="header" className="navbar fixed-top navbar-expand-lg navbar-light navbar-container">
-                <a className="navbar-brand" href="#">
+                <Link to={RoutesEnum.dashboard} className="navbar-brand">
                     <img className="navbar-logo" src="https://ullu.app/assets/img/ullu-text.png" />
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
