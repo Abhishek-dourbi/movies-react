@@ -41,32 +41,58 @@ class Albums extends Component {
             ]
         };
         return (
-            <div style={{marginLeft: 10, marginRight:30}}>
-                <h3 style={{paddingTop: '1rem', marginBottom: -16}}>Album Songs</h3>
+            <div className='card-heading' >
+                <h3 style={{paddingTop: '2rem', marginBottom: '1rem'}}>Album Songs</h3>
                 <Slider {...settings}>
-                    <div className="albums">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e1f32ff88491f3bdf9bebf7" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums ">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5dcacc61b2a7c43bef974107" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums ">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e03c0a17ec0db3bdfc77021" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e661b0acf87fb3d46dd4792" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4d5cb0d43eb13d43d63bc8" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5dc0276401408a3c0abbac9f" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5dc0276401408a3c0abbac9f" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="albums">
-                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5dc0276401408a3c0abbac9f" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
+                    </div>
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
+                    </div>
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="other">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5e4a80cdd43eb13d43d4aa6f" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
                 </Slider>
             </div>

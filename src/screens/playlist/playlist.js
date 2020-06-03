@@ -142,17 +142,24 @@ class Playlist extends Component {
         const {thumbnail, cards, title, tags} = this.state;
         return (
             <div className='playlist-container'>
-              <div className='player-container'>
-                  <Player thumbnail={thumbnail} title={title} tags={tags}/>
-              </div>
-              <div className='playlist-card-container'>
-                  {
-                      cards.length && cards.map(card => {
-                          const {episodeNo, partNo, duration, thumbnail} = card;
-                          return <Card episode={episodeNo} part={partNo} duration={duration} thumbnail={thumbnail} />
-                      })
-                  }
-              </div>
+                <div className='row'>
+                    <div className='col-md-8 col-sm-12'>
+                    <div className='player-container'>
+                        <Player thumbnail={thumbnail} title={title} tags={tags}/>
+                    </div>
+                    </div>
+                    <div className='col-md-4 col-sm-12'>
+                    <div className='playlist-card-container'>
+                        {
+                            cards.length && cards.map(card => {
+                                const {episodeNo, partNo, duration, thumbnail} = card;
+                                return <Card episode={episodeNo} part={partNo} duration={duration} thumbnail={thumbnail} />
+                            })
+                        }
+                    </div>
+                    </div>
+                </div>
+
             </div>
         );
     }

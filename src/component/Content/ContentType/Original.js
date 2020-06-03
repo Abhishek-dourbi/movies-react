@@ -42,32 +42,45 @@ class Original extends Component {
             ]
         };
         return (
-            <div style={{marginLeft: 20, marginRight: 30}}>
+
+            <div className='card-heading'>
                 <h3 style={{paddingTop: '1rem', marginBottom: 14}}>Originals</h3>
+
                 <Slider {...settings}>
-                    <div className="card">
-                        <img src = "https://image.tmdb.org/t/p/original//pXeuSWSKgWUnhRFHZ4TjAUU8lbE.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                    <div className="original">
+                        <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
                     </div>
-                    <div className="card ">
-                        <img src = "https://image.tmdb.org/t/p/original//wkFdanlAaV39sSXeslImfRUj3jQ.jpg" style={{height: '100%',}} alt = 'img' />
                     </div>
-                    <div className="card ">
-                        <img src = "https://image.tmdb.org/t/p/original//zrPpUlehQaBf8YX2NrVrKK8IEpf.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="original">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="card">
-                        <img src = "https://image.tmdb.org/t/p/original//wUFIEJCSmurmXPX0mP0cEgoltrk.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="original">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="card">
-                        <img src = "https://image.tmdb.org/t/p/original//x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="original">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="card">
-                        <img src = "https://image.tmdb.org/t/p/original//1sBx2Ew4WFsa1YY32vlHt079O03.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="original">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="card">
-                        <img src = "https://image.tmdb.org/t/p/original//MoEKaPFHABtA1xKoOteirGaHl1.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="original">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
-                    <div className="card">
-                        <img src = "https://image.tmdb.org/t/p/original//e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg" style={{height: '100%',}} alt = 'img' />
+                    <div className='col-md-4 col-sm-12'>
+                        <div className="original">
+                            <img src = "https://d1dfc9w6nzu9oi.cloudfront.net/5ec6b25b1e6eae3d681652ca" style={{height: '100%',}} alt = 'img' />
+                        </div>
                     </div>
                     </Slider>
             </div>
