@@ -2,16 +2,28 @@
     transition: all ease .2s;
 }
 
+.toggle-btn {
+    background-color: transparent;
+    margin-right: 1rem;
+}
+
+.toggle-btn-icon {
+    background-color: white;
+    margin-right: 1rem;
+}
+
 .navbar-container {
     padding-right: 0;
 }
 
 .navbar-logo {
-    width: 180px;
+    width: 20rem;
 }
 
 .button-container {
-    padding: 0px 10px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-button {
@@ -21,29 +33,32 @@
 
 .nav-button-label {
     text-transform: uppercase;
+    font-size: 1.4rem;
 }
 
 .home-button-label {
-    color: #ffc107
+    color: #ffc107;
+    font-size: 1.4rem;
 }
 
 .rocket-icon {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 24px;
-    margin-right: 10px;
+    font-size: 2.4rem;
+    margin-right: 1rem;
 }
 
 .subscribe-button-label {
     color: rgba(255, 255, 255, 0.7);
+    font-size: 1.4rem;
 }
 
 .search-icon {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 .button-border {
-    border: #ffc107 1px solid;
+    border: #ffc107 0.1rem solid;
 }
 
 .tilted-button {
@@ -51,11 +66,11 @@
 }
 
 .nav-button-right {
-    margin-right: -10px;
+    margin-right: -1rem;
     background-color: #ffc107;
 }
 
 .parallelogram {
     transform: skewX(-15deg);
-    border-radius: 6px;
+    border-radius: 0.6rem;
 }

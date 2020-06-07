@@ -4,9 +4,17 @@
     padding-top: 7rem;
 }
 
+@media screen and (max-width: 720px){
+    .playlist-container {
+        display: block;
+        flex: 1;
+        padding-top: 7rem;
+    }
+}
+
 .player-container {
     flex: 5;
-    border-width: 1px;
+    border-width: 0.1rem;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.2);
 }

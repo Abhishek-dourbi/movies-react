@@ -1,50 +1,37 @@
+.rest {
+    transition: transform 450ms;
+    width: 100vw;
+}
 
 .card:hover{
-    opacity: 1;
-    transform: scale(1.05);
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-}
-
-.card {
-    min-height: 0;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    padding-right: 0rem;
-    height: 480px;
-    cursor: pointer;
-    transition: all 450ms;
-}
-
-.other{
-    flex: 0 0 auto;
-    min-height: 0;
-    padding-top: 3.5rem;
-    padding-bottom: 4rem;
-    padding-right: 1rem;
-    height: 300px;
-    width: 330px;
-    cursor: pointer;
-    transition: all 450ms;
-}
-
-.other:hover{
     opacity: 1;
     transform: scale(1.05);
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
-.albums{
-    flex: 0 0 auto;
+
+.card {
     min-height: 0;
     padding-top: 3.5rem;
     padding-bottom: 4rem;
     padding-right: 1rem;
+    height: 550px;
     cursor: pointer;
     transition: all 450ms;
 }
 
-.albums:hover{
+.other{
+    min-height: 0;
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+    padding-right: 1rem;
+    height: 300px;
+    width: 600px;
+    cursor: pointer;
+    transition: all 450ms;
+}
+
+.other:hover{
     opacity: 1;
     transform: scale(1.05);
     padding-top: 3rem;

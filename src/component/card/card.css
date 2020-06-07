@@ -1,7 +1,7 @@
 .playlist-card {
     display: flex;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.1rem;
     border-color: rgba(255, 255, 255, 0.2);
 }
 

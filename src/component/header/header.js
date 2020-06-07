@@ -24,10 +24,10 @@ class Header extends Component {
                 <Link to={RoutesEnum.dashboard} className="navbar-brand">
                     <img className="navbar-logo" src="https://ullu.app/assets/img/ullu-text.png" />
                 </Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse"
+                <button className="navbar-toggler toggle-btn" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon toggle-btn-icon" />
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -42,8 +42,10 @@ class Header extends Component {
                             </li>
                             <li className="nav-item button-container">
                                 <button className="nav-link nav-button" href="#">
-                                    <i className="fas fa-rocket rocket-icon" />
-                                    <span className="nav-button-label subscribe-button-label">Subscribe</span>
+                                    <span className="nav-button-label subscribe-button-label">
+                                        <i className="fas fa-rocket rocket-icon" />
+                                        Subscribe
+                                    </span>
                                 </button>
                             </li>
                             <li className="nav-item button-container">
